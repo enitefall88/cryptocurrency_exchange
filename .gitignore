@@ -1,0 +1,9 @@
+# frontend
+node_modules
+
+# backend
+.idea
+.env
+venv
+
+.DS_Store
