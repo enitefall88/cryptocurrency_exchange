@@ -25,7 +25,7 @@ function CryptocurrencyCard(props) {
         style={{
           width: 700,
           height: 340,
-          'box-shadow': '0 3px 10px rgb(0,0,0,0.2)',
+          'boxShadow': '0 3px 10px rgb(0,0,0,0.2)',
         }}
         className="text-2xl"
       >
