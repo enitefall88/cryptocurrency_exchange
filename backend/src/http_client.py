@@ -18,7 +18,6 @@ class CMCHTTPClient(HTTPClient):
             result = await resp.json()
             return result["data"]
 
-
     async def get_currency(self, currency_id: int):
         async with self._session.get(
             "/v2/cryptocurrency/quotes/latest",
