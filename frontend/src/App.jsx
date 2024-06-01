@@ -22,7 +22,7 @@ const App = () => {
     axios.get('http://142.93.128.186:8000/cryptocurrencies').then(r => {
       const currenciesResponse = r.data
       const menuItems = [
-        getItem('Список криптовалют', 'g1', null,
+        getItem('List of cryptocurrencies', 'g1', null,
           currenciesResponse.map(c => {
             return {label: c.name, key: c.id}
           }),
