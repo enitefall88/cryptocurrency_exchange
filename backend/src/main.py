@@ -10,6 +10,7 @@ app.include_router(router_crypto)
 
 origins = [
     "http://localhost:5173",
+    "http://142.93.128.186:3000",
     "http://127.0.0.1:5173",
 ]
 
